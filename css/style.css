@@ -13,10 +13,11 @@ body {
 }
 
 .content {
-	margin: 20px;
+	width: 90%;
+	margin: 20px auto;
 }
 
-h1 { 
+h1, h3, a { 
 	font-family: 'Lato', 'sans-serif';
 	font-weight: 400;
 	text-transform: uppercase;
@@ -35,13 +36,12 @@ h1 {
 }
 
 .start_logo img {
-	width: 150px;
+	width: 280px;
 }
 
 .start_logo h3 {
 	position: absolute;
 	display: inline;
-	font-family: 'Lato', 'sans-serif';
 	font-weight: 700;
 	font-size: 1.6em;
 	top: 40px;
@@ -60,9 +60,7 @@ h1 {
 	font-size: 0.8em;
 }
 
-
 .start_shopping_link {
-	font-family: 'Lato';
 	text-transform: uppercase;
 	text-decoration: none;
 	color: #2d2d2d;
@@ -76,8 +74,12 @@ h1 {
 	color: white;
 	text-shadow: 1px 2px 3px #282828;
 	text-transform: uppercase;
-	font-family: 'Lato';
 	text-align: center;
 	letter-spacing: 1px;
 	font-weight: 400;
+}
+
+/* Home Page */
+.home_logo_img {
+	width: 170px;
 }
