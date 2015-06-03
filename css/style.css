@@ -1,0 +1,74 @@
+body {
+	font-family: 'Open Sans', 'sans-serif';
+}
+
+.container {
+	width: 1024px; 
+	height: 768px;
+	border: 1px solid black;
+	margin: 0 auto;
+	background: url('../img/room2.jpg');
+	background-size: cover;
+	background-position: center;
+}
+
+.content {
+	margin: 20px;
+}
+
+h1 { 
+	font-family: 'Lato', 'sans-serif';
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+.start_page_content {
+	width: 550px;
+	margin: 200px auto;
+}
+
+.start_logo {
+	width: 250px;
+	margin: 0 auto;
+	position: relative;
+}
+.start_shopping_btn {
+	height: 200px;
+	background-color: rgba(255,255,255,0.6);
+	margin: 0 auto;
+}
+
+.start_logo_img {
+	width: 150px;
+}
+
+.start_logo_h3 {
+	display: inline;
+	font-family: 'Lato', 'sans-serif';
+	font-weight: 700;
+	font-size: 1.6em;
+	position: absolute;
+	top: 40px;
+	margin: 0;
+	color: #2d2d2d;
+}
+
+.start_shopping_link {
+	font-family: 'Lato';
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #2d2d2d;
+	font-size: 2.8em;
+	font-weight: 700;
+	line-height: 200px;
+	margin-left: 16%;
+}
+
+.start_info_h3 {
+	color: white;
+	text-shadow: 1px 2px 3px #282828;
+	text-transform: uppercase;
+	font-family: 'Lato';
+	font-weight: 400;
+	text-align: center;
+}

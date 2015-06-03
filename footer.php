@@ -7,7 +7,7 @@
  * @since 1.0
  */
 ?>				
-			<h1>Footer</h1>
+			</div> <!-- /content -->
 		</div> <!-- /container -->
 		<?php wp_footer(); ?>
 	</body>
