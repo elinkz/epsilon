@@ -19,8 +19,8 @@ get_header(); ?>
 
 		<div class="start_page_content">
 			<div class="start_logo">
-				<img src="http://media.mentor.se/2012/05/hm-logo.png" alt="logo" class="start_logo_img">
-				<h3 class="start_logo_h3">HOME</h3>
+				<img src="http://media.mentor.se/2012/05/hm-logo.png" alt="logo">
+				<h3>HOME</h3>
 			</div>
 			<div class="start_shopping_btn">
 				<a href="<?php echo get_page_link(12); ?>" class="start_shopping_link"><i class="fa fa-chevron-right"></i> Börja shoppa</a>
