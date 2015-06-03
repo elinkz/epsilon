@@ -23,7 +23,7 @@ h1 {
 }
 
 .start_page_content {
-	width: 550px;
+	width: 590px;
 	margin: 200px auto;
 }
 
@@ -36,6 +36,10 @@ h1 {
 	height: 200px;
 	background-color: rgba(255,255,255,0.6);
 	margin: 0 auto;
+}
+
+.start_shopping_btn i { 
+	font-size: 0.8em;
 }
 
 .start_logo_img {
@@ -51,6 +55,7 @@ h1 {
 	top: 40px;
 	margin: 0;
 	color: #2d2d2d;
+	letter-spacing: 1px;
 }
 
 .start_shopping_link {
@@ -58,10 +63,10 @@ h1 {
 	text-transform: uppercase;
 	text-decoration: none;
 	color: #2d2d2d;
-	font-size: 2.8em;
+	font-size: 3.5em;
 	font-weight: 700;
 	line-height: 200px;
-	margin-left: 16%;
+	margin-left: 9%;
 }
 
 .start_info_h3 {
@@ -69,6 +74,6 @@ h1 {
 	text-shadow: 1px 2px 3px #282828;
 	text-transform: uppercase;
 	font-family: 'Lato';
-	font-weight: 400;
 	text-align: center;
+	letter-spacing: 1px;
 }
