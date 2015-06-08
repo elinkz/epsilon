@@ -36,6 +36,7 @@ function widgetsInit() {
 		'id' => 'rea_area'
 		
 	));
+
 }
 add_action('widgets_init', 'widgetsInit');
 

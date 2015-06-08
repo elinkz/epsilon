@@ -32,8 +32,18 @@ get_header(); ?>
 ************************ MAIN CONTENT ******************************
 *****************************************************************-->
 <div class="main_content">
-	<div class="categories">
-		<h1>Categories and stuff</h1>
+	<div class="product_categories">
+		
+		<?php
+		$taxonomy = 'products_category';
+		$terms = get_terms( $taxonomy, 'products' );
+		
+		if ($terms) {
+			foreach($terms as $term) {
+			    echo '<p class="product_category"><a href="' . esc_attr(get_term_link($term, $taxonomy)) . '" title="' . $term->name . '" >' . $term->name.'</a></p>';
+			}
+		} ?>
+
 	</div>
 	<div class="products">
 		<h1>Products</h1>
