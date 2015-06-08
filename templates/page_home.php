@@ -45,9 +45,6 @@ get_header(); ?>
 		} ?>
 
 	</div>
-	<div class="products">
-		<h1>Products</h1>
-	</div>
 </div>
 
 <?php get_footer(); ?>
