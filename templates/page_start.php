@@ -23,7 +23,8 @@ get_header(); ?>
 				<h3>HOME</h3>
 			</div>
 			<div class="start_shopping_btn">
-				<a href="<?php echo get_page_link(12); ?>" class="start_shopping_link"><i class="fa fa-chevron-right"></i> Börja shoppa</a>
+				<a href="<?php echo get_page_link(5); ?>" class="start_shopping_link"><i class="fa fa-chevron-right"></i> Börja shoppa</a>
+				<!-- kom ihåg att ändra get_page_link till Elin: 12 Cicci: 5 -->
 			</div>
 			<div class="start_info">
 				<h3 class="start_info_h3">
