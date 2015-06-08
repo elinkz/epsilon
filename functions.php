@@ -22,19 +22,21 @@ function widgetsInit() {
 	register_sidebar( array(
 		'name' => 'Erbjudande',
 		'id' => 'erbjudande_area'
-		
 	));
 
 	register_sidebar( array(
 		'name' => 'Nyheter',
 		'id' => 'nyheter_area'
-		
 	));
 
 	register_sidebar( array(
 		'name' => 'Rea',
 		'id' => 'rea_area'
-		
+	));
+	
+	register_sidebar( array(
+		'name' => 'Search',
+		'id' => 'search_area'
 	));
 
 }
