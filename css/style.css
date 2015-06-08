@@ -80,10 +80,12 @@ h1, h3, a {
 }
 
 /* Home Page */
+
+/* Header */
+
 .home_logo_img {
 	width: 100px;
 }
-
 
 .main_nav {
 	text-align: center;
@@ -91,15 +93,38 @@ h1, h3, a {
 
 .main_nav a{
 	width: 33%;
-	
 }
 
 .fa-shopping-cart {
+	color: #000;
 	text-align: right;
 	float: right;
 }
 
 .fa-search {
+	color: #000;
 	text-align: left;
 	float: left;
+}
+
+/* nav - categories */
+
+.product_categories {
+	text-align: center;
+	line-height: 100px;
+	
+}
+
+.product_categories p {
+	background-color: rgba(255,255,255,0.6);
+	display: inline-block;
+    margin: 10px;
+	height: 100px;
+	width: 20%;
+}
+
+.product_categories a {
+	color: #000;
+	text-decoration: none;
+	
 }
