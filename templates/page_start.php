@@ -17,14 +17,14 @@ get_header(); ?>
 			echo "<p>No content found.</p>";
 		endif; ?>
 
+
 		<div class="start_page_content">
 			<div class="start_logo">
 				<img src="http://media.mentor.se/2012/05/hm-logo.png" alt="logo">
 				<h3>HOME</h3>
 			</div>
 			<div class="start_shopping_btn">
-				<a href="<?php echo get_page_link(5); ?>" class="start_shopping_link"><i class="fa fa-chevron-right"></i> Börja shoppa</a>
-				<!-- kom ihåg att ändra get_page_link till Elin: 12 Cicci: 5 -->
+				<a href="<?php echo get_page_link(12); ?>" class="start_shopping_link"><i class="fa fa-chevron-right"></i> Börja shoppa</a>
 			</div>
 			<div class="start_info">
 				<h3 class="start_info_h3">
@@ -32,5 +32,20 @@ get_header(); ?>
 				</h3>
 			</div>
 		</div>
+
+<div class="start_page_content">
+	<div class="start_logo">
+		<img src="<?php bloginfo('template_directory'); ?>../img/hm-logo4.svg" alt="logo">
+	</div>
+	<div class="start_shopping_btn">
+		<a href="<?php echo get_page_link(12); ?>" class="start_shopping_link"><i class="fa fa-chevron-right"></i> Börja shoppa</a>
+	</div>
+	<div class="start_info">
+		<h3 class="start_info_h3">
+			Betala direkt i kassan eller med faktura
+		</h3>
+	</div>
+</div>
+>>>>>>> 2e531c6ed7ea9dca797074390b2152f7828157c5
 
 <?php get_footer(); ?>

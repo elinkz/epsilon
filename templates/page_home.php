@@ -18,22 +18,26 @@ get_header(); ?>
 		endif; ?>
 
 <header class="header">
-	<h1>Header</h1>
-</header>
-
 <!--**************************************************************** 
 ************************ NAVIGATION ********************************
 *****************************************************************-->
-<nav class="main_nav">
-	<a href="#">Search</a>
-	<a href="#">Logo/Home</a>
-	<a href="#">Shoppingcart</a>
-</nav>
+	<nav class="main_nav">
+		<a href="#"><i class="fa fa-search fa-3x"></i></a>
+		<a href="#"><img src="<?php bloginfo('template_directory'); ?>../img/hm-logo4.svg" alt="logo" class="home_logo_img"></a>
+		<a href="#"><i class="fa fa-shopping-cart fa-3x"></i></a>
+	</nav>
+</header>
+
 <!--**************************************************************** 
 ************************ MAIN CONTENT ******************************
 *****************************************************************-->
 <div class="main_content">
-	<h1>Home Page</h1>
+	<div class="categories">
+		<h1>Categories and stuff</h1>
+	</div>
+	<div class="products">
+		<h1>Products</h1>
+	</div>
 </div>
-	
+
 <?php get_footer(); ?>
