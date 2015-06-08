@@ -81,5 +81,25 @@ h1, h3, a {
 
 /* Home Page */
 .home_logo_img {
-	width: 170px;
+	width: 100px;
+}
+
+
+.main_nav {
+	text-align: center;
+}
+
+.main_nav a{
+	width: 33%;
+	
+}
+
+.fa-shopping-cart {
+	text-align: right;
+	float: right;
+}
+
+.fa-search {
+	text-align: left;
+	float: left;
 }
