@@ -24,7 +24,7 @@ function custom_post_type_project() {
                 'hierarchical'          => false,
                 'public'                => true,
                 'menu_position'         => 5,
-                'menu_icon'             =>  'dashicons-star-filled',
+                'menu_icon'             => 'dashicons-star-filled',
                 'supports'              => array('title', 'editor', 'thumbnail', 'excerpt'),
                 'has_archive'           => true,
                 'rewrite'               => array('slug' => 'products', 'with_front' => false),
@@ -53,7 +53,7 @@ function taxonomies_products() {
         );
         $args = array(
         'labels' => $labels,
-        'hierarchical' => true,
+        'hierarchical' => true
         );
   
     register_taxonomy( 'products_category', 'products', $args );

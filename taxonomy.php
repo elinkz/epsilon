@@ -15,55 +15,44 @@
 ************************ MAIN CONTENT ******************************
 *****************************************************************-->
 <?php	
+	$url = htmlspecialchars($_SERVER['HTTP_REFERER']);
+	echo "<a href='$url' class='back_btn'><i class='fa fa-arrow-left fa-3x'></i></a>"; ?>
+
+<h2 class="category_title"><?php echo single_cat_title(); ?></h2>
+<div id="products">
+<div class="sub_categories">
+	<h5 class="sub_cat">SUB CATEGORY</h5>
+	<h5 class="sub_cat">SUB CATEGORY</h5>
+	<h5 class="sub_cat">SUB CATEGORY</h5>
+	<h5 class="sub_cat">SUB CATEGORY</h5>
+	<h5 class="sub_cat">SUB CATEGORY</h5>
+</div>
+<?php
 	if (have_posts()) :
-	while (have_posts()) : the_post();  
-?>
-<div class="main_content">
-	<div class="product_categories">
-		
-		<?php
-		$taxonomy = 'products_category';
-		$terms = get_terms( $taxonomy, 'products' );
-		
-		if ($terms) {
-			foreach($terms as $term) {
-			    echo '<p class="product_category"><a href="' . esc_attr(get_term_link($term, $taxonomy)) . '" title="' . $term->name . '" >' . $term->name.'</a></p>';
-			}
-		} ?>
-
-	</div>
-<?php 
-	endwhile;
-
-	else :
-		echo "<p>No content found.</p>";
-	endif; ?>
+	while (have_posts()) : the_post(); ?>
 
 <!--**************************************************************** 
 ***************************** PRODUCTS *****************************
 *****************************************************************-->
-<?php	
-	if (have_posts()) :
-	while (have_posts()) : the_post();  
-?>
-	<div class="products">
-		<h2><?php if ( is_category() ) { echo 'Category: '; single_cat_title(); } ?></h2>	
-		<div class="product">
-			<h1><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
-			<div class="excerpt">
-				<?php the_content(); ?>
+	<div class="product">
+		<div class="product_featured_image">
+			<?php the_post_thumbnail('small-thumbnail'); ?>
+		</div>
+		<a href="<?php the_permalink(); ?>" class="product_title"><?php the_title(); ?></a>
+		<div class="product_description">
+			<div class="product_info">
+				<?php the_excerpt(); ?>
 			</div>
 			<div class="readmore">
 				<a href="<?php the_permalink(); ?>">Read more</a>
 			</div>
 		</div>
 	</div>
-	<?php 
-	endwhile;
-
-	else :
-		echo "<p>No content found.</p>";
-	endif; ?>
+	<?php endwhile;
+		else :
+			echo "<p>No content found.</p>";
+		endif; ?>
+	</div> <!-- / PRODUCTS -->
 </div> <!-- /MAIN CONTENT --> 
 
 <?php get_footer(); ?>

@@ -10,14 +10,16 @@ body {
 	background: url('../img/room2.jpg');
 	background-size: cover;
 	background-position: center;
+	overflow: hidden;
 }
 
 .content {
 	width: 90%;
 	margin: 20px auto;
+	position: relative;
 }
 
-h1, h3, a { 
+h1, h2, h3, a { 
 	font-family: 'Lato', 'sans-serif';
 	font-weight: 400;
 	text-transform: uppercase;
@@ -84,7 +86,7 @@ h1, h3, a {
 /* Header */
 
 .home_logo_img {
-	width: 100px;
+	width: 120px;
 }
 
 .main_nav {
@@ -95,16 +97,18 @@ h1, h3, a {
 	width: 33%;
 }
 
+.fa {
+	color: #2d2d2d;
+}
+
 .fa-shopping-cart {
-	color: #000;
-	text-align: right;
-	float: right;
+	position: absolute;
+	right: 0;
 }
 
 .fa-search {
-	color: #000;
-	text-align: left;
-	float: left;
+	position: absolute;
+	left: 0;
 }
 
 /* nav - categories */
@@ -124,7 +128,82 @@ h1, h3, a {
 }
 
 .product_categories a {
-	color: #000;
+	color: #2d2d2d;
 	text-decoration: none;
 	
+}
+
+/* Product Page */
+.product {
+	width: 150px;
+	height: 250px;
+	display: inline-block; 
+	vertical-align: top;
+	margin: 15px;
+	position: relative;
+	background-color: rgba(0,0,0,0.6);
+}
+
+.product_description {
+	padding: 10px;
+	margin-top: -5px;
+}
+
+.product_description a {
+	display: inline-block;
+	text-decoration: none;
+	color: #fff;
+	font-weight: 300;
+}
+
+.product_title {
+	position: absolute;
+	background-color: black;
+	color: white;
+	width: 150px;
+	text-align: center;
+	padding: 15px 0px;
+	top: 105px;
+	font-weight: 300;
+	text-decoration: none;
+}
+
+.product_info {
+	color: #fff;
+	font-size: 14px;
+}
+
+.readmore {
+	text-align: center;
+	width: 130px;
+	position: absolute;
+	bottom: 10px;
+}
+
+.back_btn {
+	position: absolute;
+	top: 112px;
+	left: 0;
+}
+
+.category_title {
+	text-align: center;
+	font-weight: 300;
+	font-size: 2.4em;
+	margin: 60px auto;
+	color: #2d2d2d;
+}
+
+.sub_categories {
+	height: 70px;
+	margin-bottom: 30px;
+}
+
+.sub_cat {
+	display: inline;
+	font-size: 1em;
+	background-color: rgba(255,255,255,0.5);
+	padding: 20px 16px;
+	margin: 16px;
+	font-weight: 400;
 }

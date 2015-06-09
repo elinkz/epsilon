@@ -47,21 +47,22 @@ require (get_template_directory() . '/cpt_products.php');
 
 // Load Scripts
 function loadScripts() {
-	wp_enqueue_script("jquery");
+	wp_enqueue_script('jquery');
 	wp_enqueue_script( 'epsilon_script', get_template_directory_uri() . '/js/main.js', array('jquery'), '1.0.0', true );
 }
 
 /* AJAX Actions */
-function getSingleProduct() {
-	get_template_part('single_products');
+/*function getProducts() {
+	get_template_part('taxonomy');
 	die();
 }
 
+
+add_action('wp_ajax_load_single_product', 'getProducts');
+
+add_action('wp_ajax_nopriv_load_single_product', 'getProducts'); //for users that are not logged in.*/
+
 add_action( 'wp_enqueue_scripts', 'loadScripts' );
-
-add_action('wp_ajax_load_single_product', 'getSingleProduct');
-
-add_action('wp_ajax_nopriv_load_single_product', 'getSingleProduct'); //for users that are not logged in.
 
 /* We might need this.. Let it be */
 /*remove_action( 'wp_head', 'print_emoji_detection_script', 7 );
