@@ -48,6 +48,7 @@ require (get_template_directory() . '/cpt_products.php');
 // Load Scripts
 function loadScripts() {
 	wp_enqueue_script('jquery');
+	wp_enqueue_script( 'lightbox_script', get_template_directory_uri() . '/js/lightbox.min.js', array('jquery'), '1.0.0', true );
 	wp_enqueue_script( 'epsilon_script', get_template_directory_uri() . '/js/main.js', array('jquery'), '1.0.0', true );
 }
 
