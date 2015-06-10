@@ -38,7 +38,7 @@
 		<div class="product_featured_image">
 			<?php the_post_thumbnail('small-thumbnail'); ?>
 		</div>
-		<a href="<?php the_permalink(); ?>" class="product_title"><?php the_title(); ?></a>
+		<a href="<?php the_permalink(); ?>" rel="lightbox[917]" class="product_title"><?php the_title(); ?></a>
 		<div class="product_description">
 			<div class="product_info">
 				<?php the_excerpt(); ?>
@@ -55,4 +55,4 @@
 	</div> <!-- / PRODUCTS -->
 </div> <!-- /MAIN CONTENT --> 
 
-<?php get_footer(); ?>
+<?php get_footer();
