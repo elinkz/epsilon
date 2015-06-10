@@ -21,7 +21,7 @@ body {
 
 h1, h2, h3, a { 
 	font-family: 'Lato', 'sans-serif';
-	font-weight: 400;
+	font-weight: 300;
 	text-transform: uppercase;
 }
 
@@ -82,6 +82,29 @@ h1, h2, h3, a {
 }
 
 /* Home Page */
+.home_box_container {
+	width: 100%;
+}
+
+.home_box {
+	background-color: rgba(255,255,255,0.5);
+	width: 290px;
+	height: 290px;
+	display: inline-block;
+	margin: 85px 14px 0px 0px;
+	vertical-align: top;
+}
+
+.home_box h4 {
+	text-align: center;
+	font-family: 'Lato';
+	text-transform: uppercase;
+	font-size: 1.8em;
+	font-weight: 700;
+	letter-spacing: 2px;
+	color: #DF1F29;
+	text-shadow: -1px 0px 1px #343434;
+}
 
 /* Header */
 
@@ -113,16 +136,21 @@ h1, h2, h3, a {
 
 /* nav - categories */
 
+.product_caterogy {
+	margin-right: 10px;
+}
+
 .product_categories {
 	text-align: center;
 	line-height: 100px;
+	margin-top: 45px;
 	
 }
 
 .product_categories p {
 	background-color: rgba(255,255,255,0.6);
 	display: inline-block;
-    margin: 10px;
+    margin: 5px;
 	height: 100px;
 	width: 20%;
 }

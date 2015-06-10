@@ -49,8 +49,16 @@ get_header(); ?>
 <!--**************************************************************** 
 ***************************** PRODUCTS *****************************
 *****************************************************************-->
-	<div class="erbjudanden_container">
-			<h2>Lägg till rea, dagens tips, erbjudande här</h2>
+	<div class="home_box_container">
+		<div class="home_box nyheter">
+			<h4>nyheter</h4>
+		</div>
+		<div class="home_box erbjudande">
+			<h4>erbjudande</h4>
+		</div>
+		<div class="home_box rea">
+			<h4>rea</h4>
+		</div>
 	</div>
 </div>
 
