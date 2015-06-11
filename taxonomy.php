@@ -16,10 +16,9 @@
 *****************************************************************-->
 <?php	
 	$url = htmlspecialchars($_SERVER['HTTP_REFERER']);
-	echo "<a href='$url' class='back_btn'><i class='fa fa-arrow-left fa-3x'></i></a>"; ?>
+	echo "<a href='$url' class='back_btn'><i class='fa fa-angle-left fa-4x'></i></a>"; ?>
 
 <h2 class="category_title"><?php echo single_cat_title(); ?></h2>
-<div id="products">
 <div class="sub_categories">
 	<h5 class="sub_cat">SUB CATEGORY</h5>
 	<h5 class="sub_cat">SUB CATEGORY</h5>
@@ -27,6 +26,7 @@
 	<h5 class="sub_cat">SUB CATEGORY</h5>
 	<h5 class="sub_cat">SUB CATEGORY</h5>
 </div>
+<div id="products">
 <?php
 	if (have_posts()) :
 	while (have_posts()) : the_post(); ?>
@@ -41,10 +41,10 @@
 		<a href="<?php the_permalink(); ?>" rel="lightbox[917]" class="product_title"><?php the_title(); ?></a>
 		<div class="product_description">
 			<div class="product_info">
-				<?php the_excerpt(); ?>
+				<p class="price_1">1299 KR</p>
 			</div>
 			<div class="readmore">
-				<a href="<?php the_permalink(); ?>">Read more</a>
+				<a href="<?php the_permalink(); ?>">Lägg i varukorg + </a>
 			</div>
 		</div>
 	</div>
