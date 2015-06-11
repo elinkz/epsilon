@@ -86,6 +86,10 @@ h1, h2, h3, a {
 	width: 100%;
 }
 
+.home_box_container img {
+	height: 50%;
+}
+
 .home_box {
 	background-color: rgba(255,255,255,0.5);
 	width: 290px;
@@ -93,6 +97,7 @@ h1, h2, h3, a {
 	display: inline-block;
 	margin: 85px 14px 0px 0px;
 	vertical-align: top;
+	text-align: center;
 }
 
 .home_box h4 {
@@ -104,6 +109,31 @@ h1, h2, h3, a {
 	letter-spacing: 1px;
 	color: #DF1F29;
 	text-shadow: -1px 1px 1px #383838;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+.home_box h5 {
+	font-size: 1.3em;
+	margin: 5px;
+}
+
+.box_info {
+	height: 61px;
+	background-color: rgba(255,255,255,0.5);
+	
+}
+.home_box p {
+	display: inline-block;
+	margin: 0;
+}
+
+.home_box .sale {
+	color: red;
+}
+
+.home_box .before {
+	text-decoration: line-through;
 }
 
 /* Header */

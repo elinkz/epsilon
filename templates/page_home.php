@@ -52,12 +52,28 @@ get_header(); ?>
 	<div class="home_box_container">
 		<div class="home_box nyheter">
 			<h4>nyheter</h4>
+			<img src="<?php bloginfo('template_directory'); ?>/img/strandhandduk.png" alt="news" />
+			<div class="box_info">
+				<h5>Strandhandduk</h5>
+				<p>99kr</p>
+			</div>
 		</div>
 		<div class="home_box erbjudande">
 			<h4>erbjudande</h4>
+			<img src="<?php bloginfo('template_directory'); ?>/img/soffkudde.png" alt="news" />
+			<div class="box_info">
+				<h5>Soffkudde</h5>
+				<p>49kr</p>
+			</div>
 		</div>
 		<div class="home_box rea">
 			<h4>rea</h4>
+			<img src="<?php bloginfo('template_directory'); ?>/img/brodkorg.png" alt="news" />
+			<div class="box_info">
+				<h5>Brödkorg</h5>
+				<p class="sale">49kr</p>
+				<p class="before">99kr</p>
+			</div>
 		</div>
 	</div>
 </div>
