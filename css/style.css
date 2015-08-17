@@ -339,12 +339,47 @@ h1, h2, h3, a {
 
 .angle_1 { color: #504C4C; }
 
-.radio_div {
-    text-align: center;
-    margin: 0 50px 0 50px;
-    font-size: 2em;
+/* payments_content */
+
+.payment {
+	background-color: rgba(255,255,255,0.6);
+	padding: 20px;
+}
+
+.payment_box h2, .information_box h2 {
+	text-align: center; 
 }
 
 .payment_box form {
-	text-align: center; 
+	text-align: center;
 }
+
+.radio_div {
+    font-size: 2em;
+	display: inline-block;
+	vertical-align: top;
+	text-align: left;
+	
+}
+
+.radio_div p {
+	font-size: 0.5em;
+	margin: 5px 0 0 0;
+}
+
+.radio_div .input_text {
+	padding: 5px;
+	font-size: 0.5em;
+}
+
+.info {
+    font-size: 1em;
+	display: inline-block;
+}
+
+.info .input_text {
+	display: block;
+	padding: 5px;
+	font-size: 0.7em;
+}
+
