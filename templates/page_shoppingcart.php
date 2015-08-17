@@ -31,7 +31,7 @@ get_header();
 
 <div class="shopping_cart_content">
 	<a href="#" class="varukorg">VARUKORG</a>
-	<a href="#" class="betalsatt">BETALSÄTT</p>
+	<a href="javascript:void(0);" class="betalsatt">BETALSÄTT</a>
 	<a href="#" class="tack">TACK FÖR DITT KÖP</a>
 </div>
 
