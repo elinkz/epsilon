@@ -7,7 +7,7 @@
 	<nav class="main_nav">
 		<a href="#"><i class="fa fa-search fa-3x"></i></a>
 		<a href="#"><img src="<?php bloginfo('template_directory'); ?>/img/hm-logo4.svg" alt="logo" class="home_logo_img"></a>
-		<a href="<?php bloginfo('template_directory'); ?>/shoppingcart.php" rel="lightbox[917]"><i class="fa fa-shopping-cart fa-3x"></i></a>
+		<a href="<?php bloginfo('template_directory'); ?>/templates/page_shoppingcart.php" ><i class="fa fa-shopping-cart fa-3x"></i></a>
 	</nav>
 </header>
 
