@@ -321,3 +321,30 @@ h1, h2, h3, a {
 	font-weight: 300;
 	font-family: 'Lato';
 }
+
+/* Shopping Cart Page */
+.shopping_cart_content {
+	width: 95%;
+	margin: 40px auto;
+}
+
+.cart_steps {
+	text-decoration: none;
+	font-size: 1.3em;
+	padding: 0px 65px;
+	color: #504C4C;
+}
+
+.step_1, .step_2, .angle_2 { color: #A9A9A9; }
+
+.angle_1 { color: #504C4C; }
+
+.radio_div {
+    text-align: center;
+    margin: 0 50px 0 50px;
+    font-size: 2em;
+}
+
+.payment_box form {
+	text-align: center; 
+}
