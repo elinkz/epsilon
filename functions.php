@@ -52,15 +52,14 @@ function loadScripts() {
 }
 
 /* AJAX Actions */
-/*function getProducts() {
-	get_template_part('taxonomy');
+function getContent() {
+	get_template_part('templates/payments_content');
 	die();
 }
 
 
-add_action('wp_ajax_load_single_product', 'getProducts');
-
-add_action('wp_ajax_nopriv_load_single_product', 'getProducts'); //for users that are not logged in.*/
+add_action('wp_ajax_load_content', 'getContent');
+add_action('wp_ajax_nopriv_load_content', 'getContent'); //for users that are not logged in.*/
 
 add_action( 'wp_enqueue_scripts', 'loadScripts' );
 

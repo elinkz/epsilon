@@ -25,7 +25,7 @@ endif;
 		<img src="<?php bloginfo('template_directory'); ?>/img/hm-logo4.svg" alt="logo">
 	</div>
 	<div class="start_shopping_btn">
-		<a href="<?php echo get_page_link(5); ?>" class="start_shopping_link"><i class="fa fa-chevron-right"></i> Börja shoppa</a>
+		<a href="<?php echo get_page_link(12); ?>" class="start_shopping_link"><i class="fa fa-chevron-right"></i> Börja shoppa</a>
 	</div>
 	<div class="start_info">
 		<h3 class="start_info_h3">
