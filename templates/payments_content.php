@@ -24,14 +24,14 @@
 
 		<form>
 			<div class="info">
-				Name <input type="text" name="name" placeholder="Epsilon" class="input_text" />
-				Address<input type="text" name="address" placeholder="epsilonvägen 13" class="input_text" />
+				Namn <input type="text" name="name" placeholder="Åke Svensson" class="input_text" />
+				Address<input type="text" name="address" placeholder="Epsilonvägen 13" class="input_text" />
 				Postnummer<input type="text" name="postnr" placeholder="133 77 Stockholm" class="input_text" />
 			</div>
 			<div class="info">
 				Email<input type="text" name="email" placeholder="epsilon@gmail.com" class="input_text" />
-				Upprepa email<input type="text" name="email2" placeholder="073 133 777" class="input_text" />
-				Telefonnr<input type="text" name="tel" placeholder="073 133 777" class="input_text" />
+				Upprepa email<input type="text" name="email2" placeholder="epsilon@gmail.com" class="input_text" />
+				Telefonnummer<input type="text" name="tel" placeholder="073133777" class="input_text" />
 
 			</div>
 		</form>

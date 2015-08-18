@@ -40,7 +40,8 @@ get_header(); ?>
 		
 		if ($terms) {
 			foreach($terms as $term) {
-			    echo '<p class="product_category"><a href="' . esc_attr(get_term_link($term, $taxonomy)) . '" title="' . $term->name . '" >' . $term->name.'</a></p>';
+			    echo '<p class="product_category"><a href="' . esc_attr(get_term_link($term, $taxonomy)) . '" title="' . $term->name . '" >' . $term->name.
+			    '</a></p>';
 			}
 		} ?>
 
@@ -55,7 +56,7 @@ get_header(); ?>
 			<img src="<?php bloginfo('template_directory'); ?>/img/strandhandduk.png" alt="news" />
 			<div class="box_info">
 				<h5>Strandhandduk</h5>
-				<p>99kr</p>
+				<p>99 SEK</p>
 			</div>
 		</div>
 		<div class="home_box erbjudande">
@@ -63,7 +64,7 @@ get_header(); ?>
 			<img src="<?php bloginfo('template_directory'); ?>/img/soffkudde.png" alt="news" />
 			<div class="box_info">
 				<h5>Soffkudde</h5>
-				<p>49kr</p>
+				<p>49 SEK</p>
 			</div>
 		</div>
 		<div class="home_box rea">
@@ -71,8 +72,8 @@ get_header(); ?>
 			<img src="<?php bloginfo('template_directory'); ?>/img/brodkorg.png" alt="news" />
 			<div class="box_info">
 				<h5>Brödkorg</h5>
-				<p class="sale">49kr</p>
-				<p class="before">99kr</p>
+				<p class="sale">49 SEK</p>
+				<p class="before">99 SEK</p>
 			</div>
 		</div>
 	</div>

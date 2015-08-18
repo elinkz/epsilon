@@ -11,6 +11,8 @@
 			}
 		}).done(function(data) {
 			$('.shopping_cart_content').html(data);
+			$('.step_0').css('font-weight', '300');
+			$('.step_1').css('font-weight', '700');
 		});
 	}
 

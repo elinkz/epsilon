@@ -31,8 +31,10 @@ get_header();
 
 <div class="shopping_cart_container">
 	<div class="shopping_cart_header">
-		<a href="javascript:void(0);"><i class="fa fa-undo fa-3x"></i></a>
-		<a href="javascript:void(0);" class="varukorg cart_steps">VARUKORG</a>
+		<?php	
+		$url = htmlspecialchars($_SERVER['HTTP_REFERER']);
+		echo "<a href='$url'><i class='fa fa-undo fa-3x'></i></a>"; ?>
+		<a href="javascript:void(0);" class="varukorg cart_steps step_0">VARUKORG</a>
 		<i class="fa fa-angle-right fa-2x angle_1"></i>
 		<a href="javascript:void(0);" class="betalsatt cart_steps step_1">BETALSÄTT</a>
 		<i class="fa fa-angle-right fa-2x angle_2"></i>
@@ -42,24 +44,29 @@ get_header();
 		<div class="cart">
 			<table class="cart_list">
 				<tr>
-					<th> - Artikel </th>
-					<th> - Pris </th>
+					<th> Artikel </th>
+					<th> Pris </th>
+					<th> Ändra </th>
 				</tr>
 				<tr>
-					<td><i class="fa fa-times-circle"></i> Soffkudde</td>
-					<td><i class="fa fa-plus-square"></i> 1 * <span class="cart_price">49 SEK</span></td>
+					<td>1 * Soffkudde</td>
+					<td><span class="cart_price">49 SEK</span></td>
+					<td><i class="fa fa-trash-o"></i><i class="fa fa-plus-square-o"></i><i class="fa fa-minus-square-o"></i></td>
 				</tr>
 				<tr>
-					<td><i class="fa fa-times-circle"></i> Matta</td>
-					<td><i class="fa fa-plus-square"></i> 1 * <span class="cart_price">399 SEK</span></td>
+					<td>1 * Matta</td>
+					<td><span class="cart_price">399 SEK</span></td>
+					<td><i class="fa fa-trash-o"></i><i class="fa fa-plus-square-o"></i><i class="fa fa-minus-square-o"></i></td>
 				</tr>
 				<tr>
-					<td><i class="fa fa-times-circle"></i> Ljuslykta</td>
-					<td><i class="fa fa-plus-square"></i> 1 * <span class="cart_price">29 SEK</span></td>
+					<td>1 * Ljuslykta</td>
+					<td><span class="cart_price">29 SEK</span></td>
+					<td><i class="fa fa-trash-o"></i><i class="fa fa-plus-square-o"></i><i class="fa fa-minus-square-o"></i></td>
 				</tr>
 				<tr>
-					<td><i class="fa fa-times-circle"></i> 2-Pack Gardiner </td>
-					<td><i class="fa fa-plus-square"></i> 1 * <span class="cart_price">199 SEK</span></td>
+					<td>1 * 2-Pack Gardiner </td>
+					<td><span class="cart_price">199 SEK</span></td>
+					<td><i class="fa fa-trash-o"></i><i class="fa fa-plus-square-o"></i><i class="fa fa-minus-square-o"></i></td>
 				</tr>
 			</table>
 			<hr>
