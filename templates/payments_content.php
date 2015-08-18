@@ -1,5 +1,3 @@
-
-
 <div class="payment">
 	<div class="payment_box">
 
