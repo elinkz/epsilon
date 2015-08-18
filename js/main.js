@@ -14,7 +14,7 @@
 		});
 	}
 
-	$( '.betalsatt' ).on( 'click', loadContent );
+	$( '.next_step_btn' ).on( 'click', loadContent );
 
 	});
 

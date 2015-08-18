@@ -324,8 +324,9 @@ h1, h2, h3, a {
 
 /* Shopping Cart Page */
 .shopping_cart_container {
-	/*width: 95%;*/
+	width: 95%; 
 	margin: 40px auto;
+	position: relative;
 }
 
 .cart_steps {
@@ -337,23 +338,81 @@ h1, h2, h3, a {
 
 .step_1, .step_2, .angle_2 { color: #A9A9A9; }
 
+.cart_list {
+	text-transform: uppercase;
+	font-weight: 300;
+	font-size: 1.1em;
+	width: 50%;
+	margin: 0 auto;
+}
+
+.cart_list th { 
+	text-align: left; 
+	font-weight: 300;
+	font-size: 1.3em;
+	padding-bottom: 10px;
+}
+
+.cart_list td { padding: 10px 0; }
+
+.cart h3 { 
+	text-align: center; 
+	font-size: 1.3em;
+}
+
+.cart h3 .cart_total { font-weight: bold; }
+
+.cart_price { font-weight: 400; }
+
 .angle_1 { color: #504C4C; }
+
+.next_step_btn {
+	background-color: #7FB778;
+	width: 190px;
+	text-align: center;
+	margin: 0 auto;
+	padding: 15px;
+	color: #fff;
+	letter-spacing: 1px;
+	position: absolute;
+	bottom: 24px;
+	right: 38%;
+	cursor: pointer;
+	font-size: 1.3em;
+}
+
+.next_step_btn i { 
+	color: white; 
+	margin-left: 10px;
+}
+
+.next_step_btn:hover { 
+	transition: background-color 2s;
+	background-color: #34802B; 
+}
 
 /* payments_content */
 
-.payment {
+.payment, .cart {
 	background-color: rgba(255,255,255,0.6);
 	font-family: 'Lato', 'sans-serif';
 	padding: 20px;
+	margin-top: 25px;
+	height: 470px;
 }
 
 .payment_box h2, .information_box h2 {
 	text-align: center; 
 }
 
-.payment_box form, .information_box form {
+.payment_box form {
 	text-align: center;
 	margin: 30px 0;
+}
+
+.information_box form {
+	width: 89%;
+	margin: 0 auto;
 }
 
 .info input {
@@ -373,7 +432,13 @@ h1, h2, h3, a {
 }
 
 .info .input_text {
-	margin: 0px 0 10px 0;
+	margin: 0px 0 5px 0;
+}
+
+.info {
+	font-size: 1em;
+	text-transform: uppercase;
+	font-weight: 300;
 }
 
 .information_box .fa-chevron-right {
@@ -390,17 +455,14 @@ h1, h2, h3, a {
     font-size: 1.4em;
 }
 
-.information_box form {
-	margin-bottom: 70px;
-}
-
 p.big_text {
 	display: inline;
-	font-size: 1.6em;
-	margin: 0;
+	text-transform: uppercase;
+	font-size: 1.3em;
+	font-weight: 300;
 }
 
 p.medium_text {
-	font-size: 1em;
-	margin: 0;
+	font-size: 0.9em;
+	margin: 10px 0px 0px 10px;
 }
