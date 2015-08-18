@@ -1,3 +1,5 @@
+
+
 <div class="payment">
 	<div class="payment_box">
 
@@ -35,12 +37,12 @@
 				Email:<input type="text" name="email" placeholder="epsilon@gmail.com" class="input_text" />
 				Upprepa email:<input type="text" name="email2" placeholder="073 133 777" class="input_text" />
 				Telefonnr:<input type="text" name="tel" placeholder="073 133 777" class="input_text" />
-				
+
 			</div>
 		</form>
 		<p>Bekräfta ditt köp</p>
 		<a href="<?php echo get_page_link(42); ?>"><i class="fa fa-chevron-right fa-2x"></i></a>
 
 	</div>
-	
+
 </div>
