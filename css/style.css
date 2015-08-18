@@ -350,36 +350,56 @@ h1, h2, h3, a {
 	text-align: center; 
 }
 
-.payment_box form {
+.payment_box form, .information_box form {
 	text-align: center;
+	margin: 50px 0;
 }
 
-.radio_div {
-    font-size: 2em;
-	display: inline-block;
+.info input {
+	display: block;
+}
+
+.radio_div , .info {
+	margin: 0 80px;
 	vertical-align: top;
 	text-align: left;
-	
-}
-
-.radio_div p {
-	font-size: 0.5em;
-	margin: 5px 0 0 0;
-}
-
-.radio_div .input_text {
-	padding: 5px;
-	font-size: 0.5em;
-}
-
-.info {
-    font-size: 1em;
 	display: inline-block;
+}
+
+.info .input_text, .radio_div .input_text  {
+	padding: 5px;
+	font-size: 1em;
 }
 
 .info .input_text {
-	display: block;
-	padding: 5px;
-	font-size: 0.7em;
+	margin: 0px 0 10px 0;
 }
 
+.information_box .fa-chevron-right {
+	position: absolute;
+    bottom: 15px;
+    right: 35px;
+	color: green;
+}
+
+.information_box p {
+	position: absolute;
+    bottom: -3px;
+    right: 65px;
+    font-size: 1.4em;
+}
+
+.information_box form {
+	margin-bottom: 70px;
+}
+
+p.big_text {
+	display: inline;
+	font-size: 1.6em;
+	margin: 0;
+}
+
+p.medium_text {
+	font-size: 1em;
+	margin: 0;
+}
