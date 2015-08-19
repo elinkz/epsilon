@@ -7,7 +7,7 @@
 	<nav class="main_nav">
 		<a href="#"><i class="fa fa-search fa-3x"></i></a>
 		<a href="#"><img src="<?php bloginfo('template_directory'); ?>/img/hm-logo4.svg" alt="logo" class="home_logo_img"></a>
-		<a href="<?php bloginfo('template_directory'); ?>/templates/page_shoppingcart.php" ><i class="fa fa-shopping-cart fa-3x"></i></a>
+		<a href="<?php echo get_page_link(38); ?>" ><i class="fa fa-shopping-cart fa-3x"></i></a>
 	</nav>
 </header>
 
@@ -41,7 +41,7 @@
 		<a href="<?php the_permalink(); ?>" rel="lightbox[917]" class="product_title"><?php the_title(); ?></a>
 		<div class="product_description">
 			<div class="product_info">
-				<p class="price_1">1299 KR</p>
+				<p class="price_1"><?php the_excerpt(); ?></p>
 			</div>
 			<div class="readmore">
 				<a href="<?php the_permalink(); ?>">Lägg i varukorg + </a>
