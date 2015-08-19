@@ -296,6 +296,11 @@ h1, h2, h3, a {
 	left: 20px;
 }
 
+.back_btn_2 {
+	position: absolute;
+	top: -14px;
+}
+
 .category_title {
 	text-align: center;
 	font-weight: 400;
@@ -328,7 +333,7 @@ h1, h2, h3, a {
 .cart_steps {
 	text-decoration: none;
 	font-size: 1.3em;
-	padding: 0px 65px;
+	padding: 0px 80px;
 	color: #504C4C;
 }
 

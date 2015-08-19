@@ -55,4 +55,4 @@
 	</div> <!-- / PRODUCTS -->
 </div> <!-- /MAIN CONTENT --> 
 
-<?php get_footer();
+<?php get_footer(); ?>

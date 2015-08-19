@@ -5,7 +5,7 @@
 
 	function loadContent () {
 		$.ajax({
-			url: 'wp-admin/admin-ajax.php',
+			url: '../wp-admin/admin-ajax.php',
 			data: {
 				action: 'load_content'
 			}
