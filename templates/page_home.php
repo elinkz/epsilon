@@ -23,7 +23,7 @@ get_header(); ?>
 *****************************************************************-->
 	<nav class="main_nav">
 		<a href="#"><i class="fa fa-search fa-3x"></i></a>
-		<a href="#"><img src="<?php bloginfo('template_directory'); ?>/img/hm-logo4.svg" alt="logo" class="home_logo_img"></a>
+		<a href="<?php echo get_home_url(); ?>"><img src="<?php bloginfo('template_directory'); ?>/img/hm-logo4.svg" alt="logo" class="home_logo_img"></a>
 		<a href="<?php echo get_page_link(38); ?>"><i class="fa fa-shopping-cart fa-3x"></i></a>
 	</nav>
 </header>
@@ -40,8 +40,8 @@ get_header(); ?>
 		
 		if ($terms) {
 			foreach($terms as $term) {
-			    echo '<p class="product_category"><a href="' . esc_attr(get_term_link($term, $taxonomy)) . '" title="' . $term->name . '" >' . $term->name.
-			    '</a></p>';
+			    echo '<a href="' . esc_attr(get_term_link($term, $taxonomy)) . '" title="' . $term->name . '" ><p class="product_category">' . $term->name.
+			    '</p></a>';
 			}
 		} ?>
 

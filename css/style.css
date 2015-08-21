@@ -117,12 +117,14 @@ h1, h2, h3, a {
 	text-align: center;
 	text-transform: uppercase;
 	font-size: 1.8em;
-	font-weight: 700;
+	/*font-weight: 700;*/
+	font-weight: 200;
 	letter-spacing: 1px;
-	color: #DF1F29;
-	text-shadow: 0px 1px 1px #383838;
-	margin-bottom: 20px;
-	margin-top: 20px;
+	/*color: #DF1F29;*/
+	color: #FFF;
+	background: rgba(224, 12, 44, 0.8);
+	/*text-shadow: 0px 1px 1px #383838;*/
+	margin: 20px;
 }
 
 .home_box h5 {
