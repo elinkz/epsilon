@@ -30,7 +30,7 @@ get_template_part( 'navigation' );
 	<div class="shopping_cart_header">
 		<?php	
 		$url = htmlspecialchars($_SERVER['HTTP_REFERER']);
-		echo "<a href='$url' class='back_btn_2'><i class='fa fa-angle-left fa-4x'></i></a>"; ?>
+		echo "<a href='$url' class='fadeout back_btn_2'><i class='fa fa-angle-left fa-4x'></i></a>"; ?>
 		<a href="javascript:void(0);" class="varukorg cart_steps step_0">VARUKORG</a>
 		<i class="fa fa-angle-right fa-2x angle_1"></i>
 		<a href="javascript:void(0);" class="betalsatt cart_steps step_1">BETALSÄTT</a>

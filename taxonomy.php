@@ -14,7 +14,7 @@ get_template_part( 'navigation' );
 *****************************************************************-->
 <?php	
 	$url = htmlspecialchars($_SERVER['HTTP_REFERER']);
-	echo "<a href='$url' class='back_btn'><i class='fa fa-angle-left fa-4x'></i></a>"; ?>
+	echo "<a href='$url' class='fadeout back_btn'><i class='fa fa-angle-left fa-4x'></i></a>"; ?>
 
 <h2 class="category_title"><?php echo single_cat_title(); ?></h2>
 <div class="sub_categories">

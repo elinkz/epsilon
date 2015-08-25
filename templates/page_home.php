@@ -39,7 +39,7 @@ get_template_part( 'navigation' );
 		
 		if ($terms) {
 			foreach($terms as $term) {
-			    echo '<a href="' . esc_attr(get_term_link($term, $taxonomy)) . '" title="' . $term->name . '" ><p class="product_category">' . $term->name.
+			    echo '<a class="fadeout" href="' . esc_attr(get_term_link($term, $taxonomy)) . '" title="' . $term->name . '" ><p class="product_category">' . $term->name.
 			    '</p></a>';
 			}
 		} ?>

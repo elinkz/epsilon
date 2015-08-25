@@ -272,6 +272,7 @@ h1, h2, h3, a {
 .product_info {
 	color: #fff;
 	font-size: 14px;
+	text-align: center;
 }
 
 .add_to_cart_btn {
