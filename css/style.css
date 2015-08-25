@@ -79,10 +79,11 @@ h1, h2, h3, a {
 	text-transform: uppercase;
 	text-decoration: none;
 	color: #2d2d2d;
-	font-size: 3.5em;
+	font-size: 4em;
 	font-weight: 700;
 	line-height: 200px;
-	margin-left: 9%;
+	margin-left: 7%;
+	letter-spacing: 1px;
 }
 
 .start_info_h3 {

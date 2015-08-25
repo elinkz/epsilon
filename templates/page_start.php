@@ -25,7 +25,7 @@ endif;
 		<img src="<?php bloginfo('template_directory'); ?>/img/hm-logo4.svg" alt="logo">
 	</div>
 	<div class="start_shopping_btn">
-		<a href="<?php echo get_permalink( get_page_by_title( 'Home' ) ); ?>" class="start_shopping_link"><i class="fa fa-chevron-right"></i> Börja shoppa</a>
+		<a href="<?php echo get_permalink( get_page_by_title( 'Home' ) ); ?>" class="start_shopping_link">Vardagsrum <i class="fa fa-chevron-right"></i></a>
 	</div>
 	<div class="start_info">
 		<h3 class="start_info_h3">
