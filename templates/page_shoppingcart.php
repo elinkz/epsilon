@@ -18,16 +18,13 @@ get_header();
 			echo "<p>No content found.</p>";
 		endif; ?>
 
-<header class="header">
 <!--**************************************************************** 
 ************************ NAVIGATION ********************************
 *****************************************************************-->
-	<nav class="main_nav">
-		<a href="#"><i class="fa fa-search fa-3x"></i></a>
-		<a href="<?php echo get_home_url(); ?>"><img src="<?php bloginfo('template_directory'); ?>/img/hm-logo4.svg" alt="logo" class="home_logo_img"></a>
-		<a href="<?php echo get_page_link(42);?>"><i class="fa fa-shopping-cart fa-3x"></i></a>
-	</nav>
-</header>
+
+<?php
+require 'navigation.php';
+?>
 
 <div class="shopping_cart_container">
 	<div class="shopping_cart_header">

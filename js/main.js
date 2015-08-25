@@ -18,7 +18,7 @@
 
 		$( '.next_step_btn' ).on( 'click', loadContent );
 
-		$('a').on('click', function() {
+		$('.fadeout').on('click', function() {
 
 			$('body').fadeOut(400);
 
