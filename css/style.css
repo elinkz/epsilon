@@ -234,7 +234,7 @@ h1, h2, h3, a {
 	height: 250px;
 	display: inline-block; 
 	vertical-align: top;
-	margin: 0 14px;
+	margin: 0 14px 14px 14px;
 	position: relative;
 	background-color: rgba(0,0,0,0.6);
 }
