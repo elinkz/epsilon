@@ -23,7 +23,7 @@ get_header();
 *****************************************************************-->
 
 <?php
-require 'navigation.php';
+get_template_part( 'navigation' );
 ?>
 
 <div class="shopping_cart_container">
