@@ -68,12 +68,20 @@ h1, h2, h3, a {
 	height: 190px;
 	background-color: rgba(255,255,255,0.6);
 	margin: 0 auto;
+	cursor: pointer;
 }
 
 .start_shopping_btn i { 
 	font-size: 0.9em;
 	color: #2d2d2d;
 }
+
+.start_shopping_btn:hover { 
+	/*transition: background-color 1s;*/
+	transition: all 0.5s ease 0s;
+	background-color: rgba(255,255,255, 0.85); 
+}
+
 
 .start_shopping_link {
 	text-transform: uppercase;
@@ -180,32 +188,39 @@ h1, h2, h3, a {
 	left: 20px;
 }
 
-/* nav - categories */
+/* Category Area */
 
-.product_caterogy {
-	margin-right: 10px;
-}	
-
-.product_categories {
-	text-align: center;
-	line-height: 100px;
-	margin-top: 45px;
-	
-}
-
-.product_categories p {
+.product_cat_wrap {
 	background-color: rgba(255,255,255,0.6);
 	display: inline-block;
     margin: 5px;
 	height: 100px;
 	width: 20%;
-}
-
-.product_categories a {
 	color: #2d2d2d;
 	text-decoration: none;
 	font-size: 1.2em;
 	letter-spacing: 1px;
+}
+
+.product_cat_wrap:hover {
+	transition: all 0.8s ease 0s;
+	background-color: rgba(255,255,255,0.85);
+	color: black;
+}
+
+.product_caterogy {
+	margin-right: 10px;
+}	 
+
+.product_caterogy:hover {
+	transition: all 0.5s ease 0s;
+	color: red;
+}
+
+.product_categories {
+	text-align: center;
+	line-height: 70px;
+	margin-top: 45px;
 	
 }
 
@@ -418,7 +433,7 @@ h1, h2, h3, a {
 	background-color: #34802B; 
 }
 
-/* payments_content */
+/* Pay Page */
 
 .payment, .cart {
 	background-color: rgba(255,255,255,0.6);
