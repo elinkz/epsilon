@@ -117,15 +117,13 @@ h1, h2, h3, a {
 .home_box h4 {
 	text-align: center;
 	text-transform: uppercase;
-	font-size: 1.8em;
-	/*font-weight: 700;*/
+	font-size: 1.3em;
 	font-weight: 200;
 	letter-spacing: 1px;
-	/*color: #DF1F29;*/
 	color: #FFF;
-	background: rgba(224, 12, 44, 0.8);
-	/*text-shadow: 0px 1px 1px #383838;*/
-	margin: 20px;
+	background: rgba(224, 12, 44, 0.5);
+	margin: 0 0 10px 0;
+	padding: 20px;
 }
 
 .home_box h5 {
@@ -137,8 +135,9 @@ h1, h2, h3, a {
 }
 
 .box_info {
-	height: 61px;
+	height: 65px;
 	background-color: rgba(255,255,255,0.5);
+	margin-top: -2px;
 	
 }
 .home_box p {
