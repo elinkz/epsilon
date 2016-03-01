@@ -1,4 +1,3 @@
 # epsilon
-terminsprojekt
-This is a README-file
-hejsvejs
+School project, collaborating with WKS-students 
+- Only optimized for tablet (landscape)
